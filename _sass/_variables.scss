@@ -1,4 +1,9 @@
+@use "sass:color";
+
+// Required module variable for the theme build.
+$max-content-width: 930px !default;
+
 // Custom theme variables for green text only.
 // Keep other theme styling intact by overriding just the color tokens.
-$custom-text-color: #116f37;
-$custom-text-color-muted: #4f7c5a;
+$custom-text-color: #116f37 !default;
+$custom-text-color-muted: #4f7c5a !default;
