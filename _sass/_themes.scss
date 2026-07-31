@@ -1,51 +1,24 @@
+/* Override theme text color tokens (light/dark) so the theme's runtime
+    components (including icon pseudo-elements) continue to use the same
+    variables and behavior. This avoids splitting compound icons and keeps
+    hover/active colors consistent. */
+
 :root {
-  /* Local overrides left intentionally empty; we change visible text via
-     selectors below to avoid modifying theme-level variables.
-  */
+   --global-text-color: #116f37;
+   --global-text-color-light: #4f7c5a;
 }
 
-/* Local override: change only visible text color to green without touching
-   theme-level CSS variables. This preserves component styling, hover colors,
-   and layout tokens provided by the gem while making the body text green.
-*/
+html[data-theme="dark"] {
+   --global-text-color: #8bc38f;
+   --global-text-color-light: #b7d9b9;
+}
 
-/* Light mode: set primary body/text color to a readable green. */
-body,
-article,
-.post,
-.prose,
+/* When footer is fixed, ensure page content has enough bottom padding so the
+    footer doesn't overlap content. Use a conservative value that fits the
+    theme's footer height. */
+main,
 .content,
-.profile,
-.card-title,
-.card-text,
-.container p,
-.container li,
-h1,h2,h3,h4,h5,h6,
-p, li, a {
-  color: #116f37 !important;
+.post,
+.prose {
+   padding-bottom: 6rem;
 }
-
-/* Keep link hover behavior using the theme's hover color variable so
-   other interactive affordances remain consistent with the theme. */
-a:hover {
-  color: var(--global-hover-color) !important;
-}
-
-/* Dark mode: use a slightly lighter green for contrast on dark backgrounds.
-   Again, we do not touch theme variables — only the rendered text color.
-*/
-html[data-theme="dark"] body,
-html[data-theme="dark"] article,
-html[data-theme="dark"] .post,
-html[data-theme="dark"] .prose,
-html[data-theme="dark"] .content,
-html[data-theme="dark"] .profile,
-html[data-theme="dark"] .card-title,
-html[data-theme="dark"] .card-text,
-html[data-theme="dark"] h1,h2,h3,h4,h5,h6,
-html[data-theme="dark"] p, html[data-theme="dark"] li, html[data-theme="dark"] a {
-  color: #8bc38f !important;
-}
-
-/* Avoid affecting icon font-family or pseudo-element content; we only
-   alter colors. */
