@@ -1,0 +1,11 @@
+:root {
+  /* Keep the original theme styling and only overwrite text colors. */
+  --global-text-color: #116f37;
+  --global-text-color-light: #4f7c5a;
+}
+
+html[data-theme="dark"] {
+  /* Use a lighter green for better contrast on dark mode. */
+  --global-text-color: #8bc38f;
+  --global-text-color-light: #b7d9b9;
+}
