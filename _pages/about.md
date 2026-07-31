@@ -12,15 +12,15 @@ profile:
     <p>555 your office number</p>
     <p>123 your address street</p>
     <p>Your City, State 12345</p>
-    <div class="mt-3 flex gap-3 text-xl">
-      <a href="https://orcid.org/YOUR-ORCID" target="_blank" rel="noopener">
-        <i class="fa-brands fa-orcid"></i>
+    <div class="mt-3 flex gap-4 text-2xl justify-center items-center">
+      <a href="https://orcid.org/YOUR-ORCID" target="_blank" rel="noopener" class="social-link">
+        <i class="fa-brands fa-orcid fa-2x"></i>
       </a>
-      <a href="https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID" target="_blank" rel="noopener">
-        <i class="ai ai-google-scholar"></i>
+      <a href="https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID" target="_blank" rel="noopener" class="social-link">
+        <i class="ai ai-google-scholar fa-2x"></i>
       </a>
-      <a href="https://twitter.com/YOUR_TWITTER_HANDLE" target="_blank" rel="noopener">
-        <i class="fa-brands fa-twitter"></i>
+      <a href="https://twitter.com/YOUR_TWITTER_HANDLE" target="_blank" rel="noopener" class="social-link">
+        <i class="fa-brands fa-twitter fa-2x"></i>
       </a>
     </div>
 

@@ -1,0 +1,21 @@
+/* Small helper to refine social icon sizing and centering under the profile picture */
+.profile .social-link,
+.more-info .social-link,
+.profile .social-link i {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile .social-link {
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
+/* Slightly enlarge touch target on mobile */
+@media (max-width: 640px) {
+  .profile .social-link {
+    width: 2.6rem;
+    height: 2.6rem;
+  }
+}

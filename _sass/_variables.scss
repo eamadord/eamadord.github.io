@@ -7,3 +7,6 @@ $max-content-width: 930px !default;
 // Keep other theme styling intact by overriding just the color tokens.
 $custom-text-color: #116f37 !default;
 $custom-text-color-muted: #4f7c5a !default;
+
+/* Load small custom helpers (centering/size tweaks). */
+@use "custom_socials";
