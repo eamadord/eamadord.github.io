@@ -9,16 +9,29 @@
 }
 
 html[data-theme="dark"] {
-   --global-text-color: #8bc38f;
-   --global-text-color-light: #b7d9b9;
+   --global-text-color: #b7d9b9;
+   --global-text-color-light: #8bc38f;
+
+   /* Dark background and card colors for a proper dark theme. */
+   --global-bg-color: #0b0b0c;
+   --global-card-bg-color: #0f0f10;
+   --global-footer-bg-color: #0b0b0c;
+   --global-footer-text-color: #cfe8d0;
+   --global-divider-color: rgba(255,255,255,0.06);
+   --global-hover-color: #a6e6b8; /* keep hover visible on dark */
 }
 
 /* When footer is fixed, ensure page content has enough bottom padding so the
-    footer doesn't overlap content. Use a conservative value that fits the
-    theme's footer height. */
+    footer doesn't overlap content. Increase padding to accomodate footer height. */
 main,
 .content,
 .post,
 .prose {
-   padding-bottom: 6rem;
+   padding-bottom: 10rem;
+}
+
+/* Ensure footer stacks above other content visually (but padding keeps it
+    from overlapping readable text). */
+footer, .site-footer {
+   z-index: 30;
 }
