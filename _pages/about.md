@@ -2,7 +2,6 @@
 layout: about
 title: about
 permalink: /
-subtitle: Elvira Amador-Domínguez
 
 profile:
   align: right

@@ -1,0 +1,11 @@
+:root {
+  --global-text-color: #116f37;
+  --global-text-color-light: #4f7c5a;
+}
+
+html[data-theme="dark"] {
+  --global-text-color: #b7d9b9;
+  --global-text-color-light: #8bc38f;
+}
+
+/* Minimal local theme override: preserve original light/dark styling and only adjust the main text color. */
