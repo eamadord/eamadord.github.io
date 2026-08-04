@@ -42,8 +42,8 @@ latest_posts:
 
 <p class="site-description text-lg font-bold text-slate-600 dark:text-slate-300">{{ site.description }}</p>
 
-## 🐰 Short bio
-I received the B.Sc. in Computer Science (2017) and the M.Sc. in Artificial Intelligence (2018) by the Universidad Politécnica de Madrid. I first approached the research world in 2016, thanks to a research collaboration grant for undergraduated students issued by the Spanish government. After finishing my M.Sc., and thanks to a grant awarded by the Universidad Politécnica de Madrid, I started a PhD in Artificial Intelligence at the Universidad Politécnica de Madrid. In July 2022 and after four years, I (finally!) defended my PhD thesis and started working as a posdoctoral researcher at the Ontology Engineering Group. Since September 2023, I am a Lecturer at the Escuela Técnica Superior de Ingenieros de Sistemas Informáticos, mostly lecturing on Software Verification and on Requirements Engineering. 
+## 👩🏻‍🏫 Short bio
+I received the B.Sc. in Computer Science (2017) and the M.Sc. in Artificial Intelligence (2018) by the Universidad Politécnica de Madrid. I first approached the research world in 2016, thanks to a research collaboration grant for undergraduated students issued by the Spanish government. After finishing my M.Sc., and thanks to a grant awarded by the Universidad Politécnica de Madrid, I started a PhD in Artificial Intelligence at the Universidad Politécnica de Madrid. In July 2022 and after four years, I (finally!) defended my PhD thesis and started working as a posdoctoral researcher at the Ontology Engineering Group. Since September 2023, I am a Lecturer at the Escuela Técnica Superior de Ingenieros de Sistemas Informáticos, mostly lecturing on Software Verification and Requirements Engineering. 
 
 ## 🤖 Research Interests
 
