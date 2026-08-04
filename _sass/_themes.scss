@@ -1,64 +1,78 @@
-// Local override — replaces al_folio_core's own _themes.scss entirely
-// (Jekyll site-local files shadow theme-gem files with the same path,
-// they do NOT merge). So this file must define every token the theme
-// needs, not just the ones we want to change — otherwise anything we
-// omit silently falls back to the browser default (e.g. black text).
+// -----------------------------------------------------------------------------
+// Fonts
+// -----------------------------------------------------------------------------
+
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
 
 .site-description {
   font-family: 'Playwrite NG Modern', cursive !important;
 }
 
+// -----------------------------------------------------------------------------
+// Color palette: green (primary) + violet (secondary accent)
+// -----------------------------------------------------------------------------
+
 :root {
-  // Core green accent
+  // Primary accent (links, main brand color)
   --global-theme-color: #16a34a;
-  --global-hover-color: #16a34a;
+
+  // Secondary accent (hover states, highlights, back-to-top)
+  --global-hover-color: #7c3aed;
   --global-hover-text-color: #ffffff;
+  --global-highlight-color: #7c3aed;
+  --global-back-to-top-bg-color: #7c3aed;
+  --global-back-to-top-text-color: #ffffff;
 
   // Light mode surfaces & text
-  --global-bg-color: #f7fcf6;
+  --global-bg-color: #f8faf9;
   --global-card-bg-color: #ffffff;
-  --global-text-color: #1f2a24;
-  --global-text-color-light: #4b5a52;
-  --global-divider-color: rgba(22, 163, 74, 0.15);
-  --global-code-bg-color: #eef6ec;
+  --global-text-color: #201f2a;
+  --global-text-color-light: #524b5a;
+  --global-divider-color: rgba(124, 58, 237, 0.12);
+  --global-code-bg-color: #f5f2fb;
 
   --global-footer-bg-color: #ffffff;
-  --global-footer-text-color: #1f2a24;
-  --global-back-to-top-bg-color: #16a34a;
-  --global-back-to-top-text-color: #ffffff;
-  --global-highlight-color: #16a34a;
+  --global-footer-text-color: #201f2a;
 }
 
 html[data-theme="dark"] {
-  // Core green accent (brighter, for contrast on dark backgrounds)
+  // Primary accent (links, main brand color)
   --global-theme-color: #4ade80;
-  --global-hover-color: #4ade80;
+
+  // Secondary accent (hover states, highlights, back-to-top)
+  --global-hover-color: #a78bfa;
   --global-hover-text-color: #071127;
+  --global-highlight-color: #a78bfa;
+  --global-back-to-top-bg-color: #a78bfa;
+  --global-back-to-top-text-color: #071127;
 
   // Dark mode surfaces & text
-  --global-bg-color: #071127;
-  --global-card-bg-color: #0e1b33;
-  --global-text-color: #e7ede9;
-  --global-text-color-light: #b7c3bc;
-  --global-divider-color: rgba(74, 222, 128, 0.15);
-  --global-code-bg-color: #0e1b33;
+  --global-bg-color: #0d0f1f;
+  --global-card-bg-color: #171432;
+  --global-text-color: #ece7f2;
+  --global-text-color-light: #b7aec4;
+  --global-divider-color: rgba(167, 139, 250, 0.15);
+  --global-code-bg-color: #171432;
 
-  --global-footer-bg-color: #0e1b33;
-  --global-footer-text-color: #e7ede9;
-  --global-back-to-top-bg-color: #4ade80;
-  --global-back-to-top-text-color: #071127;
-  --global-highlight-color: #4ade80;
+  --global-footer-bg-color: #171432;
+  --global-footer-text-color: #ece7f2;
 }
 
-// Font override
+// -----------------------------------------------------------------------------
+// Main body font
+// -----------------------------------------------------------------------------
+
 body, h1, h2, h3, h4, h5, h6, p, a, li, span, button, input, textarea {
   font-family: 'Lato', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif !important;
 }
 
+// -----------------------------------------------------------------------------
+// Publication year headers (violet accent)
+// -----------------------------------------------------------------------------
+
 .bibliography h2 {
-  color: rgba(22, 163, 74, 0.45) !important;
+  color: rgba(124, 58, 237, 0.45) !important;
 }
 html[data-theme="dark"] .bibliography h2 {
-  color: rgba(74, 222, 128, 0.45) !important;
+  color: rgba(167, 139, 250, 0.45) !important;
 }
