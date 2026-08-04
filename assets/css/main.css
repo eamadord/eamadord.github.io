@@ -1,6 +1,4 @@
-/* Global green text override for the starter site.
-   This file is allowed in the starter repo and is intended only to adjust text color.
-*/
+/* Minimal green text override; keep all other theme styles unchanged. */
 
 :root {
   --global-text-color: #116f37;
@@ -12,22 +10,10 @@ html[data-theme="dark"] {
   --global-text-color-light: #b7d9b9;
 }
 
-body, article, .content, .post, p, li, h1, h2, h3, h4, h5, h6 {
-  color: var(--global-text-color) !important;
+body {
+  color: var(--global-text-color);
 }
 
-a, .social-link, .social-link i, .fa-brands, .ai, .ai:hover, .social-link:hover, .social-link i:hover {
-  color: var(--global-text-color) !important;
-  fill: currentColor !important;
-  stroke: currentColor !important;
-}
-
-html[data-theme="dark"] body, html[data-theme="dark"] article, html[data-theme="dark"] .content, html[data-theme="dark"] .post, html[data-theme="dark"] p, html[data-theme="dark"] li, html[data-theme="dark"] h1, html[data-theme="dark"] h2, html[data-theme="dark"] h3, html[data-theme="dark"] h4, html[data-theme="dark"] h5, html[data-theme="dark"] h6 {
-  color: var(--global-text-color-light) !important;
-}
-
-html[data-theme="dark"] a, html[data-theme="dark"] .social-link, html[data-theme="dark"] .social-link i, html[data-theme="dark"] .fa-brands, html[data-theme="dark"] .ai {
-  color: var(--global-text-color-light) !important;
-  fill: currentColor !important;
-  stroke: currentColor !important;
+html[data-theme="dark"] body {
+  color: var(--global-text-color-light);
 }
