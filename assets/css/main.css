@@ -1,0 +1,54 @@
+/* Site-wide custom overrides to restore green theme and small helpers.
+   Kept in `assets/css/main.css` so the starter passes the style-contract.
+*/
+
+:root {
+  --global-text-color: #116f37;
+  --global-text-color-light: #4f7c5a;
+  --global-bg-color: #ffffff;
+  --global-card-bg-color: #ffffff;
+  --global-footer-bg-color: #0b0b0c;
+  --global-footer-text-color: #cfe8d0;
+  --global-divider-color: rgba(0,0,0,0.06);
+  --global-hover-color: #a6e6b8;
+}
+
+html[data-theme="dark"] {
+  --global-text-color: #b7d9b9;
+  --global-text-color-light: #8bc38f;
+  --global-bg-color: #0b0b0c;
+  --global-card-bg-color: #0f0f10;
+  --global-footer-bg-color: #0b0b0c;
+  --global-footer-text-color: #cfe8d0;
+  --global-divider-color: rgba(255,255,255,0.06);
+  --global-hover-color: #a6e6b8;
+}
+
+/* Prevent navbar/footer overlap when fixed */
+main, .content, .post, .prose {
+  padding-bottom: 10rem;
+}
+body.fixed-top-nav main, body.fixed-top-nav .content, body.fixed-top-nav .post, body.fixed-top-nav .prose {
+  padding-top: 6rem;
+}
+
+/* Ensure proper stacking */
+footer, .site-footer { z-index: 30; }
+header, .site-header, .navbar, #navbar { z-index: 40; }
+
+/* Social icon centering and sizing under profile picture */
+.profile .social-link, .more-info .social-link, .profile .social-link i {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile .social-link { width: 2.2rem; height: 2.2rem; }
+@media (max-width: 640px) { .profile .social-link { width: 2.6rem; height: 2.6rem; } }
+
+/* Accent colors for links and buttons that reference theme variables */
+a, .link, .btn-primary {
+  color: var(--global-text-color);
+}
+
+/* Small accessibility: ensure enough contrast for headings */
+h1, h2, h3, h4, h5, h6 { color: var(--global-text-color); }

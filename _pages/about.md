@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <title>Elvira Amador-Domínguez</title>
+subtitle: Elvira Amador-Domínguez
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: |
-    <p>555 D1109</p>
-    <p>123 Escuela Técnica Superior de Ingenieros de Sistemas Informáticos</p>
-    <p>Campus Sur de la UPM, C. de Alan Turing, s/n, 28031 Madrid, España</p>
+    <p><i class="fa-solid fa-desktop"></i> D1109</p>
+    <p><i class="fa-solid fa-house"></i> Escuela Técnica Superior de Ingenieros de Sistemas Informáticos</p>
+    <p><i class="fa-solid fa-map-location-dot"></i> Campus Sur de la UPM, C. de Alan Turing, s/n, 28031 Madrid, España</p>
     <div class="mt-3 flex gap-4 text-2xl justify-center items-center">
       <a href="https://orcid.org/0000-0001-6838-1266" target="_blank" rel="noopener" class="social-link">
         <i class="fa-brands fa-orcid fa-2x"></i>
