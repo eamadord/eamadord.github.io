@@ -2,27 +2,27 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <title>Elvira Amador-Domínguez</title>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: |
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>555 D1109</p>
+    <p>123 Escuela Técnica Superior de Ingenieros de Sistemas Informáticos</p>
+    <p>Campus Sur de la UPM, C. de Alan Turing, s/n, 28031 Madrid, España</p>
     <div class="mt-3 flex gap-4 text-2xl justify-center items-center">
-      <a href="https://orcid.org/YOUR-ORCID" target="_blank" rel="noopener" class="social-link">
+      <a href="https://orcid.org/0000-0001-6838-1266" target="_blank" rel="noopener" class="social-link">
         <i class="fa-brands fa-orcid fa-2x"></i>
       </a>
-      <a href="https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID" target="_blank" rel="noopener" class="social-link">
+      <a href="https://scholar.google.com/citations?user=b2ixQ24AAAAJ" target="_blank" rel="noopener" class="social-link">
         <i class="ai ai-google-scholar fa-2x"></i>
       </a>
-      <a href="https://t.me/YOUR_TELEGRAM" target="_blank" rel="noopener" class="social-link">
+      <a href="https://t.me/eamadord" target="_blank" rel="noopener" class="social-link">
         <i class="fa-brands fa-telegram fa-2x"></i>
       </a>
-      <a href="https://twitter.com/YOUR_TWITTER_HANDLE" target="_blank" rel="noopener" class="social-link">
+      <a href="https://x.com/elviamador" target="_blank" rel="noopener" class="social-link">
         <i class="fa-brands fa-twitter fa-2x"></i>
       </a>
     </div>
@@ -41,8 +41,14 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+**Hi! My name is Elvira Amador Domínguez and I'm an Associate Lecturer (Profesora Permanente Laboral) at the Universidad Politécnica de Madrid**
+## 🐰 Short bio
+I received the B.Sc. in Computer Science (2017) and the M.Sc. in Artificial Intelligence (2018) by the Universidad Politécnica de Madrid. I first approached the research world in 2016, thanks to a research collaboration grant for undergraduated students issued by the Spanish government. After finishing my M.Sc., and thanks to a grant awarded by the Universidad Politécnica de Madrid, I started a PhD in Artificial Intelligence at the Universidad Politécnica de Madrid. In July 2022 and after four years, I (finally!) defended my PhD thesis and started working as a posdoctoral researcher at the Ontology Engineering Group. Since September 2023, I am a Lecturer at the Escuela Técnica Superior de Ingenieros de Sistemas Informáticos, mostly lecturing on Software Verification and on Requirements Engineering. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+## 🤖 Research Interests
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+ From a general perspective, **my research focuses on the profiling, development and evaluation of context-aware hybrid AI approaches**. This research line is transversal to other several areas, mostly:
+ - Neurosymbolic AI
+ - Natural Language Processing
+ - Knowledge Representation
+ - Knowledge Reasoning
