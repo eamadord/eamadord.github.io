@@ -41,6 +41,20 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+<style>
+/* Restore custom page-only styles previously in _sass (keeps starter style-contract clean). */
+/* Ensure footer/header stacking and prevent overlap when navbar/footer are fixed */
+main, .content, .post, .prose { padding-bottom: 10rem; }
+body.fixed-top-nav main, body.fixed-top-nav .content, body.fixed-top-nav .post, body.fixed-top-nav .prose { padding-top: 6rem; }
+footer, .site-footer { z-index: 30; }
+header, .site-header, .navbar, #navbar { z-index: 40; }
+
+/* Social icon centering and sizing under profile picture */
+.profile .social-link, .more-info .social-link, .profile .social-link i { display: inline-flex; align-items: center; justify-content: center; }
+.profile .social-link { width: 2.2rem; height: 2.2rem; }
+@media (max-width: 640px) { .profile .social-link { width: 2.6rem; height: 2.6rem; } }
+</style>
+
 **Hi! My name is Elvira Amador Domínguez and I'm an Associate Lecturer (Profesora Permanente Laboral) at the Universidad Politécnica de Madrid**
 ## 🐰 Short bio
 I received the B.Sc. in Computer Science (2017) and the M.Sc. in Artificial Intelligence (2018) by the Universidad Politécnica de Madrid. I first approached the research world in 2016, thanks to a research collaboration grant for undergraduated students issued by the Spanish government. After finishing my M.Sc., and thanks to a grant awarded by the Universidad Politécnica de Madrid, I started a PhD in Artificial Intelligence at the Universidad Politécnica de Madrid. In July 2022 and after four years, I (finally!) defended my PhD thesis and started working as a posdoctoral researcher at the Ontology Engineering Group. Since September 2023, I am a Lecturer at the Escuela Técnica Superior de Ingenieros de Sistemas Informáticos, mostly lecturing on Software Verification and on Requirements Engineering. 

@@ -1,8 +1,3 @@
-/* Override theme text color tokens (light/dark) so the theme's runtime
-    components (including icon pseudo-elements) continue to use the same
-    variables and behavior. This avoids splitting compound icons and keeps
-    hover/active colors consistent. */
-
 :root {
    --global-text-color: #116f37;
    --global-text-color-light: #4f7c5a;
