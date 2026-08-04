@@ -30,8 +30,21 @@ main,
    padding-bottom: 10rem;
 }
 
+/* When navbar is fixed, ensure page content has enough top padding so the
+   navbar doesn't overlap content. Increase padding to accomodate navbar height. */
+body.fixed-top-nav main,
+body.fixed-top-nav .content,
+body.fixed-top-nav .post,
+body.fixed-top-nav .prose {
+   padding-top: 6rem;
+}
+
 /* Ensure footer stacks above other content visually (but padding keeps it
     from overlapping readable text). */
 footer, .site-footer {
    z-index: 30;
+}
+
+header, .site-header, .navbar, #navbar {
+   z-index: 40;
 }

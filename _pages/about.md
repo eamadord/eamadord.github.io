@@ -19,6 +19,9 @@ profile:
       <a href="https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID" target="_blank" rel="noopener" class="social-link">
         <i class="ai ai-google-scholar fa-2x"></i>
       </a>
+      <a href="https://t.me/YOUR_TELEGRAM" target="_blank" rel="noopener" class="social-link">
+        <i class="fa-brands fa-telegram fa-2x"></i>
+      </a>
       <a href="https://twitter.com/YOUR_TWITTER_HANDLE" target="_blank" rel="noopener" class="social-link">
         <i class="fa-brands fa-twitter fa-2x"></i>
       </a>
@@ -28,7 +31,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # disable bottom-of-page social icons; custom profile icons appear near the photo
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
