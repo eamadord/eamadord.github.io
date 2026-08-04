@@ -1,0 +1,18 @@
+// Local override — bridged by al_folio_core into the Tailwind-based output.
+// Overrides al-folio's own theme color tokens with a green palette.
+// No layout/structure rules here — only colors, so the original
+// spacing/aesthetic of the theme stays untouched.
+
+:root {
+  --global-theme-color: #16a34a;
+  --global-hover-color: #16a34a;
+  --global-bg-color: #f7fcf6;
+  --global-divider-color: rgba(22, 163, 74, 0.15);
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: #4ade80;
+  --global-hover-color: #4ade80;
+  --global-bg-color: #071127;
+  --global-divider-color: rgba(74, 222, 128, 0.15);
+}
