@@ -55,3 +55,10 @@ html[data-theme="dark"] {
 body, h1, h2, h3, h4, h5, h6, p, a, li, span, button, input, textarea {
   font-family: 'Lato', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif !important;
 }
+
+.bibliography h2 {
+  color: rgba(22, 163, 74, 0.45) !important;
+}
+html[data-theme="dark"] .bibliography h2 {
+  color: rgba(74, 222, 128, 0.45) !important;
+}
