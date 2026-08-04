@@ -1,18 +1,47 @@
-// Local override — bridged by al_folio_core into the Tailwind-based output.
-// Overrides al-folio's own theme color tokens with a green palette.
-// No layout/structure rules here — only colors, so the original
-// spacing/aesthetic of the theme stays untouched.
+// Local override — replaces al_folio_core's own _themes.scss entirely
+// (Jekyll site-local files shadow theme-gem files with the same path,
+// they do NOT merge). So this file must define every token the theme
+// needs, not just the ones we want to change — otherwise anything we
+// omit silently falls back to the browser default (e.g. black text).
 
 :root {
+  // Core green accent
   --global-theme-color: #16a34a;
   --global-hover-color: #16a34a;
+  --global-hover-text-color: #ffffff;
+
+  // Light mode surfaces & text
   --global-bg-color: #f7fcf6;
+  --global-card-bg-color: #ffffff;
+  --global-text-color: #1f2a24;
+  --global-text-color-light: #4b5a52;
   --global-divider-color: rgba(22, 163, 74, 0.15);
+  --global-code-bg-color: #eef6ec;
+
+  --global-footer-bg-color: #ffffff;
+  --global-footer-text-color: #1f2a24;
+  --global-back-to-top-bg-color: #16a34a;
+  --global-back-to-top-text-color: #ffffff;
+  --global-highlight-color: #16a34a;
 }
 
 html[data-theme="dark"] {
+  // Core green accent (brighter, for contrast on dark backgrounds)
   --global-theme-color: #4ade80;
   --global-hover-color: #4ade80;
+  --global-hover-text-color: #071127;
+
+  // Dark mode surfaces & text
   --global-bg-color: #071127;
+  --global-card-bg-color: #0e1b33;
+  --global-text-color: #e7ede9;
+  --global-text-color-light: #b7c3bc;
   --global-divider-color: rgba(74, 222, 128, 0.15);
+  --global-code-bg-color: #0e1b33;
+
+  --global-footer-bg-color: #0e1b33;
+  --global-footer-text-color: #e7ede9;
+  --global-back-to-top-bg-color: #4ade80;
+  --global-back-to-top-text-color: #071127;
+  --global-highlight-color: #4ade80;
 }
