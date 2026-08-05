@@ -30,7 +30,7 @@ cv:
         end_date: 2022
         score: ""
         highlights:
-          - PhD Thesis: "Methods for knowledge-based systems and deep learning integration".
+          - PhD Thesis: "Methods for knowledge-based systems and deep learning integration"
           - Thesis funded by a competitive grant from the Universidad Politécnica de Madrid's Internal Research Program
           - Granted the distinction of "International Mention" for the PhD Thesis.
 
@@ -53,7 +53,7 @@ cv:
         position: Associate Lecturer
         location: Madrid, Spain
         start_date: 2026
-        end_date: -
+        end_date: 
 
 
       - company: Escuela Técnica Superior de Ingenieros de Sistemas Informáticos (ETSISI), Universidad Politécnica de Madrid
