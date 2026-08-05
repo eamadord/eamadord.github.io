@@ -1,6 +1,5 @@
 cv:
   name: Elvira Amador-Domínguez
-  label: Associate Lecturer
   email: elvira.amador@upm.es
   location: Calle Alan Turing, S/N, 28031 Madrid, Spain
 
@@ -11,6 +10,9 @@ cv:
       username: eamadord
 
   sections:
+    Summary:
+      - Associate Lecturer. Postdoctoral researcher on AI.
+      
     Education:
       - institution: Universidad Politécnica de Madrid
         location: Madrid, Spain
