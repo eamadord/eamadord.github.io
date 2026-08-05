@@ -12,7 +12,10 @@
   font-family: 'Chelsea Market', cursive !important;
 }
 
-.more-info {
+.more-info,
+.more-info p,
+.more-info a,
+.more-info i {
   font-family: 'Courier Prime', monospace !important;
 }
 
@@ -79,8 +82,8 @@ body, h1, h2, h3, h4, h5, h6, p, a, li, span, button, input, textarea {
 // -----------------------------------------------------------------------------
 
 .bibliography h2 {
-  color: rgba(124, 58, 237, 0.45) !important;
+  color: rgba(37, 163, 100, 0.65) !important;
 }
 html[data-theme="dark"] .bibliography h2 {
-  color: rgba(167, 139, 250, 0.45) !important;
+  color: rgba(104, 180, 142, 0.65) !important;
 }
