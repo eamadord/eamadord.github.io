@@ -4,7 +4,7 @@ cv:
   email: elvira.amador@upm.es
   location: Madrid, ES
   image: ""
-  summary: 
+  summary: ""
 
   social_networks:
     - network: X
@@ -32,7 +32,7 @@ cv:
         highlights:
           - PhD Thesis: "Methods for knowledge-based systems and deep learning integration"
           - Thesis funded by a competitive grant from the Universidad Politécnica de Madrid's Internal Research Program
-          - Granted the distinction of "International Mention" for the PhD Thesis.
+          - Granted the distinction of "International Mention" for the PhD Thesis
 
       - institution: Universidad Politécnica de Madrid
         location: Madrid, Spain
@@ -40,7 +40,7 @@ cv:
         studyType: Master
         start_date: 2017
         end_date: 2018
-        
+      
       - institution: Universidad Politécnica de Madrid
         location: Madrid, Spain
         area: Computer Science
@@ -53,8 +53,6 @@ cv:
         position: Associate Lecturer
         location: Madrid, Spain
         start_date: 2026
-        end_date: 
-
 
       - company: Escuela Técnica Superior de Ingenieros de Sistemas Informáticos (ETSISI), Universidad Politécnica de Madrid
         position: Assistant Lecturer
