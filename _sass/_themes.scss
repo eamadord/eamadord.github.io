@@ -3,13 +3,17 @@
 // -----------------------------------------------------------------------------
 
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chelsea+Market&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chelsea+Market&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Special+Elite&display=swap');
 
 .site-description {
   font-family: 'Playwrite NG Modern', cursive !important;
 }
 .post-title {
   font-family: 'Chelsea Market', cursive !important;
+}
+
+.more-info {
+  font-family: 'Courier Prime', monospace !important;
 }
 
 // -----------------------------------------------------------------------------
