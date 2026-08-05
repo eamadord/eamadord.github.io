@@ -2,9 +2,7 @@ cv:
   name: Elvira Amador-Domínguez
   label: Associate Lecturer. Posdoctoral researcher on AI
   email: elvira.amador@upm.es
-  location: Madrid, ES
-  image: ""
-  summary: ""
+  location: Calle Alan Turing, S/N, 28031 Madrid, Spain
 
   social_networks:
     - network: X
@@ -12,39 +10,31 @@ cv:
     - network: GitHub
       username: eamadord
 
-  address:
-    street: Calle Alan Turing, S/N
-    city: Madrid
-    region: Madrid
-    postalCode: 28031
-    countryCode: ES
-
   sections:
     Education:
       - institution: Universidad Politécnica de Madrid
         location: Madrid, Spain
         url: https://www.upm.es
         area: Artificial Intelligence
-        studyType: PhD
+        degree: PhD
         start_date: 2018
         end_date: 2022
-        score: ""
         highlights:
-          - PhD Thesis: "Methods for knowledge-based systems and deep learning integration"
+          - "PhD Thesis: Methods for knowledge-based systems and deep learning integration."
           - Thesis funded by a competitive grant from the Universidad Politécnica de Madrid's Internal Research Program
-          - Granted the distinction of "International Mention" for the PhD Thesis
+          - Granted the distinction of "International Mention" for the PhD Thesis.
 
       - institution: Universidad Politécnica de Madrid
         location: Madrid, Spain
         area: Artificial Intelligence
-        studyType: Master
+        degree: Master
         start_date: 2017
         end_date: 2018
-      
+
       - institution: Universidad Politécnica de Madrid
         location: Madrid, Spain
         area: Computer Science
-        studyType: Bachelor
+        degree: Bachelor
         start_date: 2013
         end_date: 2017
 
@@ -53,13 +43,15 @@ cv:
         position: Associate Lecturer
         location: Madrid, Spain
         start_date: 2026
+        end_date: present
 
       - company: Escuela Técnica Superior de Ingenieros de Sistemas Informáticos (ETSISI), Universidad Politécnica de Madrid
         position: Assistant Lecturer
         location: Madrid, Spain
         start_date: 2023
         end_date: 2026
-        summary: "Lecturer in Requirements Engineering and Software Verification. Supervisor of final degree projects"
+        highlights:
+          - "Lecturer in Requirements Engineering and Software Verification. Supervisor of final degree projects"
 
       - company: Ontology Engineering Group, ETSIINF, Universidad Politécnica de Madrid
         position: Postdoctoral Researcher
@@ -79,8 +71,6 @@ cv:
         start_date: 2017
         end_date: 2018
 
-
-
     Languages:
       - name: Spanish
         summary: "Native speaker"
@@ -92,4 +82,3 @@ cv:
       - name: Artificial Intelligence
         icon: fa-solid fa-tag
         keywords: "Neurosymbolic AI, Knowledge Representation, Knowledge Reasoning, Explainable AI"
-
