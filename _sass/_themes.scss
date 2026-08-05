@@ -18,11 +18,11 @@
   font-family: 'Courier Prime', monospace !important;
 }
 
-h2 a[href="/publications/"] {
+h2 a[href*="publications"] {
   text-transform: capitalize !important;
 }
 
-h2 a[href="/publications/"]::before {
+h2 a[href*="publications"]::before {
   content: "📖 ";
 }
 
