@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chelsea+Market&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Special+Elite&display=swap');
 
+
 .site-description {
   font-family: 'Playwrite NG Modern', cursive !important;
 }
@@ -18,11 +19,11 @@
   font-family: 'Courier Prime', monospace !important;
 }
 
-h2 a[href*="publications"] {
+h2 a[href="/publications/"] {
   text-transform: capitalize !important;
 }
 
-h2 a[href*="publications"]::before {
+h2 a[href="/publications/"]::before {
   content: "📖 ";
 }
 
@@ -79,18 +80,40 @@ html[data-theme="dark"] {
 // -----------------------------------------------------------------------------
 // Main body font
 // -----------------------------------------------------------------------------
-
+ 
 body, h1, h2, h3, h4, h5, h6, p, a, li, span, button, input, textarea {
   font-family: 'Lato', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif !important;
 }
-
+ 
 // -----------------------------------------------------------------------------
 // Publication year headers (violet accent)
 // -----------------------------------------------------------------------------
-
+ 
 .bibliography h2 {
-  color: rgba(37, 163, 100, 0.65) !important;
+  color: rgba(124, 58, 237, 0.45) !important;
 }
 html[data-theme="dark"] .bibliography h2 {
-  color: rgba(104, 180, 142, 0.65) !important;
+  color: rgba(167, 139, 250, 0.45) !important;
+}
+ 
+// -----------------------------------------------------------------------------
+// "More info" box on the about page (Courier Prime, icons excluded)
+// -----------------------------------------------------------------------------
+ 
+.more-info,
+.more-info p,
+.more-info a {
+  font-family: 'Courier Prime', monospace !important;
+}
+ 
+// -----------------------------------------------------------------------------
+// "selected publications" link on the homepage
+// -----------------------------------------------------------------------------
+ 
+h2 a[href="/publications/"] {
+  text-transform: capitalize !important;
+}
+ 
+h2 a[href="/publications/"]::before {
+  content: "📖 ";
 }
